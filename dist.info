@@ -1,0 +1,16 @@
+--- This file is part of LuaDist project
+
+name = "ceg"
+version = "0.0.1"
+
+desc = "C99 Parser using lpeg"
+author = "Wesley Smith"
+license = "MIT"
+maintainer = "Tai Chi Minh Ralph Eastwood"
+url = "http://github.com/Flymir/ceg"
+
+depends = {
+	"lua >= 5.1",
+	-- "lunit >= 0.4", -- For unit tests only
+	"lpeg >= 0.8.1"
+}
