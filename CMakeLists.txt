@@ -11,7 +11,4 @@ include ( lua )
 
 # Install all files and documentation
 install ( DIRECTORY lua/ DESTINATION ${INSTALL_LMOD} COMPONENT Runtime )
-install_data ( LICENSE README )
-install_doc ( docs/ )
-install_foo ( util/ )
-install_test ( tests/ )
+install_data ( LICENSE README.md )
